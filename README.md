@@ -16,7 +16,7 @@ Federated Transfer Learning
 ### DHFTL  
 ##### System
  | Paper | Strategy | Venue | Year | Code |
- | :--- | --- | :---: | :---: | :---: |
+ | :--- | :---: | :---: | :---: | :---: |
  | [Li T, Sahu A K, Zaheer M, Sanjabi M, Talwalkar A, Smith V. Federated optimization in heterogeneous networks. Proceedings of Machine learning and systems, 2020, 2: 429–450](https://arxiv.org/abs/1812.06127) | Parameter Restriction | MLSys | 2020 | [Pytorch](https://github.com/litian96/FedProx) |
  | [Shin J, Li Y, Liu Y, Lee S J. Fedbalancer: data and pace control for efficient federated learning on heterogeneous clients. In: Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services. 2022, 436–449](https://arxiv.org/abs/2201.01601) | Instance Selection | MobiSys | 2022 | [Pytorch](https://github.com/jaemin-shin/fedbalancer) |
  | [Pilla L L. Optimal task assignment for heterogeneous federated learning devices. In: 2021 IEEE International Parallel and Distributed Processing Symposium (IPDPS). 2021, 661–670](https://ieeexplore.ieee.org/document/9460535) | Instance Selection | IEEE | 2021 | [Python/Torch](https://github.com/llpilla/olar-federated-learning) | 
@@ -70,11 +70,25 @@ Federated Transfer Learning
  | [Niu Z, Wang H, Sun H, Ouyang S, Chen Y w, Lin L. Mckd: Mutually collaborative knowledge distillation for federated domain adaptation and generalization. In: ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2023, 1–5](https://ieeexplore.ieee.org/document/10095699) | Knowledge Distillation | IEEE | 2023 | N/A |
  | [Li Y, Zhou W, Wang H, Mi H, Hospedales T M. Fedh2l: Federated learning with model and statistical heterogeneity. arXiv preprint arXiv:2101.11296, 2021](https://arxiv.org/abs/2101.11296) | Knowledge Distillation | IEEE | 2023 | N/A |
  | [Zhang L, Wu D, Yuan X. Fedzkt: Zero-shot knowledge transfer towards resource-constrained federated learning with heterogeneous on-device models. In: 2022 IEEE 42nd International Conference on Distributed Computing Systems (ICDCS). 2022, 928–938](https://arxiv.org/abs/2109.03775) | Knowledge Distillation | IEEE | 2022 | N/A |
- 
 
+  
 ### SSFTL
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
+ | [Lin H, Lou J, Xiong L, Shahabi C. Semifed: Semi-supervised federated learning with consistency and pseudo-labeling. arXiv preprint arXiv:2108.09412, 2021](https://arxiv.org/abs/2108.09412) | Instance Augmentation | SIAM | 2021 | N/A |
+ | [Lubana E S, Tang C I, Kawsar F, Dick R P, Mathur A. Orchestra: Unsupervised federated learning via globally consistent clustering. arXiv preprint arXiv:2205.11506, 2022](https://arxiv.org/abs/2205.11506) | Instance Augmentation,  Feature Clustering | ICML | 2022 | [Pytorch](https://github.com/akhilmathurs/orchestra) |
+ | [Li M, Li Q, Wang Y. Class balanced adaptive pseudo labeling for federated semi-supervised learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023, 16292–16301](https://ieeexplore.ieee.org/document/10203348) | Instance Selection | IEEE | 2023 | N/A |
+ | [Wu Z, Li Q, He B. Practical vertical federated learning with unsupervised representation learning. IEEE Transactions on Big Data, 2022](https://arxiv.org/abs/2208.10278) | Feature Augmentation | IEEE | 2022 | [Pytorch](https://github.com/jerrylife/fedonce) |
+ | [Kang Y, He Y, Luo J, Fan T, Liu Y, Yang Q. Privacy-preserving federated adversarial domain adaptation over feature groups for interpretability. IEEE Transactions on Big Data, 2022](https://arxiv.org/abs/2111.10934) | Feature Clustering | IEEE | 2022 | N/A |
+ |[Castiglia T, Zhou Y, Wang S, Kadhe S, Baracaldo N, Patterson S. Less-vfl: Communication-efficient feature selection for vertical federated learning. arXiv preprint arXiv:2305.02219, 2023](https://arxiv.org/abs/2305.02219) | Feature Selection | ICML | 2023 | N/A |
+ | [Feng S. Vertical federated learning-based feature selection with non-overlapping sample utilization. Expert Systems with Applications, 2022, 208: 118097](https://dl.acm.org/doi/10.1016/j.eswa.2022.118097) | Feature Selection | EXPERT SYST APPL | 2022 | N/A |
+ | [Jiang J, Burkhalter L, Fu F, Ding B, Du B, Hithnawi A, Li B, Zhang C. Vf-ps: How to select important participants in vertical federated learning, efficiently and securely? Advances in Neural Information Processing Systems, 2022, 35: 2088–2101](https://dl.acm.org/doi/10.5555/3600270.3600422) | Feature Selection, Model Selection; | NIPS | 2022 | 
+ | [Liu Q, Yang H, Dou Q, Heng P A. Federated semi-supervised medical image classification via inter-client relation matching. In: Medical Image Computing and Computer Assisted Intervention–MICCAI 2021: 24th International Conference, Strasbourg, France, September 27–October 1, 2021, Proceedings, Part III 24. 2021, 325–335](https://arxiv.org/abs/2106.08600) | Consistency Regularization | MICCAI | 2021 | [Pytorch](https://github.com/liuquande/FedIRM) |
+ | [Jeong W, Yoon J, Yang E, Hwang S J. Federated semi-supervised learning with inter-client consistency & disjoint learning. arXiv preprint arXiv:2006.12097, 2020](https://arxiv.org/abs/2006.12097) | Consistency Regularization, Parameter Decoupling | ICLR | 2021 | [Tensorflow](https://github.com/wyjeong/FedMatch) |
+ | [Shen T, Zhang J, Jia X, Zhang F, Huang G, Zhou P, Kuang K, Wu F, Wu C. Federated mutual learning. arXiv preprint arXiv:2006.16765, 2020](https://arxiv.org/abs/2006.16765) | Domain-dependent Consistency Regularization, Knowledge Distillation | arXiv | 2020 | N/A |
+ | [Lin X, Chen H, Xu Y, Xu C, Gui X, Deng Y, Wang Y. Federated learning with positive and unlabeled data. In: International Conference on Machine Learning. 2022, 13344–13355](https://arxiv.org/abs/2106.10904) | Model Weighting | ICML | 2022 | [Python/Torch](https://github.com/littlesunlxy/fedpu-torch) |
+ | [Yang D, Xu Z, Li W, Myronenko A, Roth H R, Harmon S, Xu S, Turkbey B, Turkbey E, Wang X, others . Federated semi-supervised learning for covid region segmentation in chest ct using multi-national data from china, italy, japan. Medical image analysis, 2021, 70: 101992](https://arxiv.org/abs/2011.11750) | Model Weighting, Parameter Decoupling | MIA | 2021 | N/A |
+ | [Itahara S, Nishio T, Koda Y, Morikura M, Yamamoto K. Distillation-based semi-supervised federated learning for communication-efficient collaborative training with non-iid private data. IEEE Transactions on Mobile Computing, 2021, 22(1): 191–205](https://arxiv.org/abs/2008.06180) | Knowledge Distillation | IEEE | 2021 | N/A |
 
 ### USFTL
  | Paper | Strategy | Venue | Year | Code |
