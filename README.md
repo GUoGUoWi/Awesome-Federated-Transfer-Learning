@@ -16,7 +16,7 @@ Federated Transfer Learning
 ### DHFTL  
 ##### System
  | Paper | Strategy | Venue | Year | Code |
- | :--- | :---: | :---: | :---: | :---: |
+ | :--- | :---: | :---: | --- | :---: |
  | [Li T, Sahu A K, Zaheer M, Sanjabi M, Talwalkar A, Smith V. Federated optimization in heterogeneous networks. Proceedings of Machine learning and systems, 2020, 2: 429–450](https://arxiv.org/abs/1812.06127) | Parameter Restriction | MLSys | 2020 | [Pytorch](https://github.com/litian96/FedProx) |
  | [Shin J, Li Y, Liu Y, Lee S J. Fedbalancer: data and pace control for efficient federated learning on heterogeneous clients. In: Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services. 2022, 436–449](https://arxiv.org/abs/2201.01601) | Instance Selection | MobiSys | 2022 | [Pytorch](https://github.com/jaemin-shin/fedbalancer) |
  | [Pilla L L. Optimal task assignment for heterogeneous federated learning devices. In: 2021 IEEE International Parallel and Distributed Processing Symposium (IPDPS). 2021, 661–670](https://ieeexplore.ieee.org/document/9460535) | Instance Selection | IEEE | 2021 | [Python/Torch](https://github.com/llpilla/olar-federated-learning) | 
