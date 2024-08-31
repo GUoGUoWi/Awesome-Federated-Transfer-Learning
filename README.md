@@ -2,7 +2,7 @@
 Federated Transfer Learning
 
 # Table of Contents
-* [Federated Transfer Learning challenges](URL "Federated Transfer Learning challenges")
+* [Federated Transfer Learning challenges](#federated-transfer-learning-challenges)
   * DHFTL
     * System
     * Incremental
