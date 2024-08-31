@@ -38,6 +38,9 @@ Federated Transfer Learning
 ##### Incremental
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
+ | [Dong J, Wang L, Fang Z, Sun G, Xu S, Wang X, Zhu Q. Federated class-incremental learning. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022, 10164–10173](https://arxiv.org/abs/2203.11473) | Consistency Regularization, Model Selection; | CVPR | 2022 | [Pytorch](https://github.com/conditionwang/fcil) |
+ | [Yoon J, Jeong W, Lee G, Yang E, Hwang S J. Federated continual learning with weighted inter-client transfer. In: International Conference on Machine Learning. 2021, 12073–12086](https://arxiv.org/abs/2003.03196) | Parameter Decoupling, Model Interpolation | ICML | 2021 | [Tensorflow](https://github.com/wyjeong/FedWeIT) |
+ | [Su L, Zhou R, Wang N, Fang G, Li Z. An online learning approach for client selection in federated edge learning under budget constraint. In: Proceedings of the 51st International Conference on Parallel Processing. 2022, 1–11](https://dl.acm.org/doi/10.1145/3545008.3545062) | Model Selection | ICPP | 2022 | N/A |
 
 ### MAFTL
  | Paper | Strategy | Venue | Year | Code |
