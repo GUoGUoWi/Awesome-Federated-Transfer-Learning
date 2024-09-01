@@ -80,7 +80,7 @@ Federated Transfer Learning
  | [Li M, Li Q, Wang Y. Class balanced adaptive pseudo labeling for federated semi-supervised learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023, 16292–16301](https://ieeexplore.ieee.org/document/10203348) | Instance Selection | IEEE | 2023 | N/A |
  | [Wu Z, Li Q, He B. Practical vertical federated learning with unsupervised representation learning. IEEE Transactions on Big Data, 2022](https://arxiv.org/abs/2208.10278) | Feature Augmentation | IEEE | 2022 | [Pytorch](https://github.com/jerrylife/fedonce) |
  | [Kang Y, He Y, Luo J, Fan T, Liu Y, Yang Q. Privacy-preserving federated adversarial domain adaptation over feature groups for interpretability. IEEE Transactions on Big Data, 2022](https://arxiv.org/abs/2111.10934) | Feature Clustering | IEEE | 2022 | N/A |
- |[Castiglia T, Zhou Y, Wang S, Kadhe S, Baracaldo N, Patterson S. Less-vfl: Communication-efficient feature selection for vertical federated learning. arXiv preprint arXiv:2305.02219, 2023](https://arxiv.org/abs/2305.02219) | Feature Selection | ICML | 2023 | N/A |
+ | [Castiglia T, Zhou Y, Wang S, Kadhe S, Baracaldo N, Patterson S. Less-vfl: Communication-efficient feature selection for vertical federated learning. arXiv preprint arXiv:2305.02219, 2023](https://arxiv.org/abs/2305.02219) | Feature Selection | ICML | 2023 | N/A |
  | [Feng S. Vertical federated learning-based feature selection with non-overlapping sample utilization. Expert Systems with Applications, 2022, 208: 118097](https://dl.acm.org/doi/10.1016/j.eswa.2022.118097) | Feature Selection | EXPERT SYST APPL | 2022 | N/A |
  | [Jiang J, Burkhalter L, Fu F, Ding B, Du B, Hithnawi A, Li B, Zhang C. Vf-ps: How to select important participants in vertical federated learning, efficiently and securely? Advances in Neural Information Processing Systems, 2022, 35: 2088–2101](https://dl.acm.org/doi/10.5555/3600270.3600422) | Feature Selection, Model Selection; | NIPS | 2022 | N/A |
  | [Liu Q, Yang H, Dou Q, Heng P A. Federated semi-supervised medical image classification via inter-client relation matching. In: Medical Image Computing and Computer Assisted Intervention–MICCAI 2021: 24th International Conference, Strasbourg, France, September 27–October 1, 2021, Proceedings, Part III 24. 2021, 325–335](https://arxiv.org/abs/2106.08600) | Consistency Regularization | MICCAI | 2021 | [Pytorch](https://github.com/liuquande/FedIRM) |
@@ -188,9 +188,22 @@ Federated Transfer Learning
 ####  Feature Space Heterogeneity
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
+ | [Wu Z, Li Q, He B. Practical vertical federated learning with unsupervised representation learning. IEEE Transactions on Big Data, 2022](https://arxiv.org/abs/2208.10278) | Feature Augmentation | IEEE | 2022 | [Pytorch](https://github.com/jerrylife/fedonce) |
+ | [Gao D, Liu Y, Huang A, Ju C, Yu H, Yang Q. Privacy-preserving heterogeneous federated transfer learning. In: 2019 IEEE international conference on big data(Big Data). 2019, 2552–2559](https://ieeexplore.ieee.org/document/9005992) | Feature Augmentation | IEEE | 2019 | N/A |
+| [Kang Y, He Y, Luo J, Fan T, Liu Y, Yang Q. Privacy-preserving federated adversarial domain adaptation over feature groups for interpretability. IEEE Transactions on Big Data, 2022](https://arxiv.org/abs/2111.10934) | Feature Clustering | IEEE | 2022 | N/A |
+| [Cassara P, Gotta A, Valerio L. Federated feature selection for cyber-physical systems of systems. IEEE Transactions on Vehicular Technology, 2022, 71(9): 9937–9950](https://arxiv.org/abs/2109.11323) | Feature Selection | IEEE | 2022 | N/A |
+| [Banerjee S, Elmroth E, Bhuyan M. Fed-fis: A novel information-theoretic federated feature selection for learning stability. In: International Conference on Neural Information Processing. 2021, 480–487](https://link.springer.com/chapter/10.1007/978-3-030-92307-5_56) | Feature Selection | NeurIPS | 2021 | N/A |
+| [Fu R, Wu Y, Xu Q, Zhang M. Feast: A communication-efficient federated feature selection framework for relational data. Proceedings of the ACM on Management of Data, 2023, 1(1): 1–28](https://dl.acm.org/doi/abs/10.1145/3588961) | Feature Selection | ACM SIGMOD | 2023 | N/A |
+| [Feng S, Yu H. Multi-participant multi-class vertical federated learning. arXiv preprint arXiv:2001.11154, 2020](https://arxiv.org/abs/2001.11154) | Feature Selection | arXiv | 2020 | N/A |
+| [Castiglia T, Zhou Y, Wang S, Kadhe S, Baracaldo N, Patterson S. Less-vfl: Communication-efficient feature selection for vertical federated learning. arXiv preprint arXiv:2305.02219, 2023](https://arxiv.org/abs/2305.02219) | Feature Selection | ICML | 2023 | N/A |
+| [Feng S. Vertical federated learning-based feature selection with non-overlapping sample utilization. Expert Systems with Applications, 2022, 208: 118097](https://dl.acm.org/doi/10.1016/j.eswa.2022.118097) | Feature Selection | EXPERT SYST APPL | 2022 | N/A |
+| [Jiang J, Burkhalter L, Fu F, Ding B, Du B, Hithnawi A, Li B, Zhang C. Vf-ps: How to select important participants in vertical federated learning, efficiently and securely? Advances in Neural Information Processing Systems, 2022, 35: 2088–2101](https://dl.acm.org/doi/10.5555/3600270.3600422) | Feature Selection, Model Selection; | NIPS | 2022 | N/A |
+| [Diao E, Ding J, Tarokh V. Heterofl: Computation and communication efficient federated learning for heterogeneous clients. arXiv preprint arXiv:2010.01264, 2020](https://arxiv.org/abs/2010.01264) | Parameter Pruning | ICLR | 2021 | [Pytorch](https://github.com/diaoenmao/HeteroFL-Computation-and-Communication-Efficient-Federated-Learning-for-Heterogeneous-Clients) |
+ 
 
 ####  Feature and Label Space Heterogeneity
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
+ | [Yoon J, Jeong W, Lee G, Yang E, Hwang S J. Federated continual learning with weighted inter-client transfer. In: International Conference on Machine Learning. 2021, 12073–12086](https://arxiv.org/abs/2003.03196) | Parameter Decoupling, Model Interpolation | ICML | 2021 | [Tensorflow](https://github.com/wyjeong/FedWeIT) |
 
  
