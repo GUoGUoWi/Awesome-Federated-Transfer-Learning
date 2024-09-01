@@ -14,7 +14,7 @@ Federated Transfer Learning
 
 ## Federated Transfer Learning challenges
 ### DHFTL  
-##### System
+#### System
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
  | [Li T, Sahu A K, Zaheer M, Sanjabi M, Talwalkar A, Smith V. Federated optimization in heterogeneous networks. Proceedings of Machine learning and systems, 2020, 2: 429–450](https://arxiv.org/abs/1812.06127) | Parameter Restriction | MLSys | 2020 | [Pytorch](https://github.com/litian96/FedProx) |
@@ -43,7 +43,7 @@ Federated Transfer Learning
  | [Li L, Duan M, Liu D, Zhang Y, Ren A, Chen X, Tan Y, Wang C. Fedsae: A novel self-adaptive federated learning framework in heterogeneous systems. In: 2021 International Joint Conference on Neural Networks (IJCNN). 2021, 1–10](https://ieeexplore.ieee.org/document/9533876) | Model Selection | IEEE | 2021 | N/A |
  | [Cox B, Chen L Y, Decouchant J. Aergia: leveraging heterogeneity in federated learning systems. In: Proceedings of the 23rd ACM/IFIP International Middleware Conference. 2022, 107–120](https://arxiv.org/abs/2210.06154) | Model Selection | ACM/IFIP | 2022 | [Python](https://github.com/bacox/fltk) |
  | [Li C, Zeng X, Zhang M, Cao Z. Pyramidfl: A fine-grained client selection framework for efficient federated learning. In: Proceedings of the 28th Annual International Conference on Mobile Computing And Networking. 2022, 158–171](https://dl.acm.org/doi/abs/10.1145/3495243.3517017) | Model Selection | MobiCom | 2022 | [Python](https://github.com/liecn/PyramidFL) | 
-##### Incremental
+#### Incremental
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
  | [Dong J, Wang L, Fang Z, Sun G, Xu S, Wang X, Zhu Q. Federated class-incremental learning. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022, 10164–10173](https://arxiv.org/abs/2203.11473) | Consistency Regularization, Model Selection; | CVPR | 2022 | [Pytorch](https://github.com/conditionwang/fcil) |
@@ -105,8 +105,59 @@ Federated Transfer Learning
  | [Han S, Park S, Wu F, Kim S, Wu C, Xie X, Cha M. Fedx: Unsupervised federated learning with cross knowledge distillation. In: European Conference on Computer Vision. 2022, 691–707](https://arxiv.org/abs/2207.09158) |  | ECCV | 2022 | [Pytorch](https://github.com/sungwon-han/fedx) |
 
 ### HOFTL
+#### Prior Shift
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
+ 
+
+#### Covariate Shift
+ | Paper | Strategy | Venue | Year | Code |
+ | :--- | :---: | :---: | :---: | :---: |
+ | [Chen H, Frikha A, Krompass D, Gu J, Tresp V. Fraug: Tackling federated learning with non-iid features via representation augmentation. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2023, 4849–4859](https://arxiv.org/abs/2205.14900) | Feature Augmentation | ICCV | 2023 | [Python](https://github.com/HaokunChen245/FRAug) |
+ | [Zhou T, Konukoglu E. Fedfa: Federated feature augmentation. arXiv preprint arXiv:2301.12995, 2023](https://arxiv.org/abs/2301.12995) | Feature Augmentation | ICLR | 2023 | [Pytorch](https://github.com/tfzhou/fedfa) |
+ | [Huang W, Ye M, Shi Z, Li H, Du B. Rethinking federated learning with domain shift: A prototype view. In: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2023, 16312–16322](https://ieeexplore.ieee.org/document/10203389) | Feature Clustering, Consistency Regularization | CVPR | 2023 | N/A |
+ | [Liu B, Guo Y, Chen X. Pfa: Privacy-preserving federated adaptation for effective model personalization. In: Proceedings of the Web Conference 2021. 2021, 923–934](https://arxiv.org/abs/2103.01548) | Feature Clustering, Model Clustering | ACMWWW | 2021 | [Pytorch](https://github.com/lebyni/PFA) |
+ | [Liu Q, Chen C, Qin J, Dou Q, Heng P A. Feddg: Federated domain generalization on medical image segmentation via episodic learning in continuous frequency space. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 1013–1023](https://arxiv.org/abs/2103.06030) | Feature Alignment | CVPR | 2021 | [Pytorch](https://github.com/liuquande/FedDG-ELCFS) |
+ | [Li X, Jiang M, Zhang X, Kamp M, Dou Q. Fedbn: Federated learning on non-iid features via local batch normalization. arXiv preprint arXiv:2102.07623, 2021](https://arxiv.org/abs/2102.07623) | Consistency Regularization | ICLR | 2021 | [Pytorch](https://github.com/med-air/FedBN) |
+ | [Wang H, Zhao H, Wang Y, Yu T, Gu J, Gao J. Fedkc: Federated knowledge composition for multi-lingual natural language understanding. In: Proceedings of the ACM Web Conference 2022. 2022, 1839–1850](https://dl.acm.org/doi/abs/10.1145/3485447.3511988) | Domain-dependent Consistency Regularization | ACMWWW | 2022 | N/A |
+ | [Wang K, Mathews R, Kiddon C, Eichner H, Beaufays F, Ramage D. Federated evaluation of on-device personalization. arXiv preprint arXiv:1910.10252, 2019](https://arxiv.org/abs/1910.10252) | Prior Shift | arXiv | 2019 | N/A |
+ |  [Li T, Sahu A K, Zaheer M, Sanjabi M, Talwalkar A, Smith V. Federated optimization in heterogeneous networks. Proceedings of Machine learning and systems, 2020, 2: 429–450](https://arxiv.org/abs/1812.06127) | Parameter Restriction | MLSys | 2020 | [Pytorch](https://github.com/litian96/FedProx) |
+ | [Dinh C T, Tran N H, Nguyen T D, Bao W, Zomaya A Y, Zhou B B. Federated learning with proximal stochastic variance reduced gradient algorithms. In: Proceedings of the 49th International Conference on Parallel Processing. 2020, 1–11](https://dl.acm.org/doi/abs/10.1145/3404397.3404457) | Parameter Restriction | ICPP | 2020 | N/A |
+ | [Li T, Hu S, Beirami A, Smith V. Ditto: Fair and robust federated learning through personalization. In: International Conference on Machine Learning. 2021, 6357–6368](https://arxiv.org/abs/2012.04221) | Parameter Restriction | ICML | 2021 | [Pytorch](https://github.com/litian96/ditto) |
+ | [Deng Y, Kamani M M, Mahdavi M. Adaptive personalized federated learning. arXiv preprint arXiv:2003.13461, 2020](https://arxiv.org/abs/2003.13461) | Parameter Restriction, Model Interpolation | arXiv | 2020 | [Pytorch](https://github.com/MLOPTPSU/FedTorch) |
+ | [Pillutla K, Malik K, Mohamed A R, Rabbat M, Sanjabi M, Xiao L. Federated learning with partial model personalization. In: International Conference on Machine Learning. 2022, 17716–17758](https://arxiv.org/abs/2204.03809) | Parameter Decoupling | ICML | 2022 | [Pytorch](https://github.com/krishnap25/fl_partial_personalization) |
+ | [Li A, Sun J, Li P, Pu Y, Li H, Chen Y. Hermes: an efficient federated learning framework for heterogeneous mobile clients. In: Proceedings of the 27th Annual International Conference on Mobile Computing and Networking. 2021, 420–437](https://dl.acm.org/doi/10.1145/3447993.3483278) | Parameter Decoupling | ACM MobiCom | 2021 | N/A |
+ | [Liu C, Yang Y, Cai X, Ding Y, Lu H. Completely heterogeneous federated learning. arXiv preprint arXiv:2210.15865, 2022](https://arxiv.org/abs/2210.15865) | Parameter Decoupling, Knowledge Distillation | arXiv | 2022 | N/A |
+ | [Chen H Y, Chao W L. On bridging generic and personalized federated learning for image classification. arXiv preprint arXiv:2107.00778, 2021](https://arxiv.org/abs/2107.00778) | Parameter Decoupling, Parameter Restriction, Model Interpolation | ICLR | 2022 | [Pytorch](https://github.com/hongyouc/fed-rod) |
+ | [Zhuang W, Wen Y, Zhang S. Joint optimization in edge-cloud continuum for federated unsupervised person re-identification. In: Proceedings of the 29th ACM International Conference on Multimedia. 2021, 433–441](https://arxiv.org/abs/2108.06493) | Model Weighting | ACMMM | 2021 | N/A |
+ | [Zhang R, Xu Q, Yao J, Zhang Y, Tian Q, Wang Y. Federated domain generalization with generalization adjustment. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023, 3954–3963](https://ieeexplore.ieee.org/document/10203192) | Model Weighting | CVPR | 2023 | [Pytorch](https://github.com/MediaBrain-SJTU/FedDG-GA) |
+ | [Liu X, Xi W, Li W, Xu D, Bai G, Zhao J. Co-mda: Federated multi-source domain adaptation on black-box models. IEEE Transactions on Circuits and Systems for Video Technology, 2023](https://ieeexplore.ieee.org/document/10128163) | Model Weighting | IEEE | 2023 | N/A |
+ | [Zhu J, Ma X, Blaschko M B. Confidence-aware personalized federated learning via variational expectation maximization. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023, 24542–24551](https://arxiv.org/abs/2305.12557) | Model Weighting, Consistency Regularization | CVPR | 2023 | [Pytorch](https://github.com/junyizhu-ai/confidence_aware_pfl) |
+ | [Yang D, Xu Z, Li W, Myronenko A, Roth H R, Harmon S, Xu S, Turkbey B, Turkbey E, Wang X, others . Federated semi-supervised learning for covid region segmentation in chest ct using multi-national data from china, italy, japan. Medical image analysis, 2021, 70: 101992](https://arxiv.org/abs/2011.11750) | Model Weighting, Parameter Decoupling | MIA | 2021 | N/A |
+ | [Beilharz J, Pfitzner B, Schmid R, Geppert P, Arnrich B, Polze A. Implicit model specialization through dag-based decentralized federated learning. In: Proceedings of the 22nd International Middleware Conference. 2021, 310–322](https://arxiv.org/abs/2111.01257) | Model Selection | IFIP | 2021 | [TensorFlow](https://github.com/osmhpi/federated-learning-dag) |
+ | [Luping W, Wei W, Bo L. Cmfl: Mitigating communication overhead for federated learning. In: 2019 IEEE 39th international conference on distributed computing systems (ICDCS). 2019, 954–964](https://ieeexplore.ieee.org/document/8885054) | Model Selection | ICDCS | 2019 | N/A |
+ | [Qayyum A, Ahmad K, Ahsan M A, Al-Fuqaha A, Qadir J. Collaborative federated learning for health-care: Multi-modal covid-19 diagnosis at the edge. IEEE Open Journal of the Computer Society, 2022, 3: 172–184](https://ieeexplore.ieee.org/document/9891834) | Model Clustering | IEEE | 2022 | N/A |
+ | [Xie H, Xiong L, Yang C. Federated node classification over graphs with latent link-type heterogeneity. In: Proceedings of the ACM Web Conference 2023. 2023, 556–566](https://dl.acm.org/doi/abs/10.1145/3543507.3583471) | Model Clustering | ACMWWW | 2023 | [Python](https://github.com/Oxfordblue7/FedLIT) |
+ | [Wang H, Yurochkin M, Sun Y, Papailiopoulos D, Khazaeni Y. Federated learning with matched averaging. arXiv preprint arXiv:2002.06440, 2020](http://www.arxiv.org/abs/2002.06440) | Model Clustering | ICLR | 2020 | [Pytorch](https://github.com/IBM/FedMA) |
+ | [Ruan Y, Joe-Wong C. Fedsoft: Soft clustered federated learning with proximal local updating. In: Proceedings of the AAAI Conference on Artificial Intelligence. 2022, 8124–8131](https://arxiv.org/abs/2112.06053) | Model Clustering | AAAI | 2022 | N/A |
+ | [Marfoq O, Neglia G, Vidal R, Kameni L. Personalized federated learning through local memorization. In: International Conference on Machine Learning. 2022, 15070–15092](https://arxiv.org/abs/2111.09360) | Model Interpolation | ICML | 2022 | [Pytorch](https://github.com/omarfoq/knn-per) |
+ | [Li D, Wang J. Fedmd: Heterogenous federated learning via model distillation. arXiv preprint arXiv:1910.03581, 2019](https://arxiv.org/abs/1910.03581) | Knowledge Distillation | NeurIPS | 2019 | N/A |
+ | [Li Y, Zhou W, Wang H, Mi H, Hospedales T M. Fedh2l: Federated learning with model and statistical heterogeneity. arXiv preprint arXiv:2101.11296, 2021](https://arxiv.org/abs/2101.11296) | Knowledge Distillation | IEEE | 2023 | N/A |
+ | [Wu Y, Kang Y, Luo J, He Y, Yang Q. Fedcg: Leverage conditional gan for protecting privacy and maintaining competitive performance in federated learning. arXiv preprint arXiv:2111.08211, 2021](https://arxiv.org/abs/2111.08211) | Knowledge Distillation | IJCAI | 2022 | [Pytorch](https://github.com/FederatedAI/research/tree/main/publications/FedCG) |
+
+#### Feature Concept Shift
+ | Paper | Strategy | Venue | Year | Code |
+ | :--- | :---: | :---: | :---: | :---: |
+ | [Ghosh A, Chung J, Yin D, Ramchandran K. An efficient framework for clustered federated learning. Advances in Neural Information Processing Systems, 2020, 33: 19586–19597](https://arxiv.org/abs/2006.04088) | Model Clustering | NeurIPS | 2020 | [Pytorch](https://github.com/jichan3751/ifca) |
+
+#### Label Concept Shift
+ | Paper | Strategy | Venue | Year | Code |
+ | :--- | :---: | :---: | :---: | :---: |
+
+#### Quantity Shift
+ | Paper | Strategy | Venue | Year | Code |
+ | :--- | :---: | :---: | :---: | :---: |
+
 
 ### HEFTL
  | Paper | Strategy | Venue | Year | Code |
