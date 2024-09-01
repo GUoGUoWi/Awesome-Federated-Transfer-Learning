@@ -185,6 +185,11 @@ Federated Transfer Learning
 
 
 ### HEFTL
+####  Feature Space Heterogeneity
+ | Paper | Strategy | Venue | Year | Code |
+ | :--- | :---: | :---: | :---: | :---: |
+
+####  Feature and Label Space Heterogeneity
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
 
