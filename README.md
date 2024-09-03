@@ -3,25 +3,25 @@ Federated Transfer Learning
 
 # Table of Contents
 * [Federated Transfer Learning challenges](#federated-transfer-learning-challenges)
-  * [DHFTL](#dhftl)
-    * [System](#system)
-    * [Incremental](#incremental)
-  * [MAFTL](#maftl)
-  * [SSFTL](#ssftl)
-  * [USFTL](#usftl)
-  * [HOFTL](#hoftl)
+  * [Dynamic Heterogeneous Federated Transfer Learning](#dynamic-heterogeneous-federated-transfer-learning)
+    * [System heterogeneity](#system-heterogeneity)
+    * [Incremental data](#incremental-data)
+  * [Model Adaptive Federated Transfer Learning](#model-adaptive-federated-transfer-learning)
+  * [Semi-supervised Federated Transfer Learning](#semi-supervised-federated-transfer-learning)
+  * [Unsupervised Federated Transfer Learning](#[unsupervised-federated-transfer-learning)
+  * [Homogeneous Federated Transfer Learning](#homogeneous-federated-transfer-learning)
     * [Prior Shift](#prior-shift)
     * [Covariate Shift](#covariate-shift)
     * [Feature Concept Shift](#feature-concept-shift)
     * [Label Concept Shift](#label-concept-shift)
     * [Quantity Shift](#quantity-shift)
-  * [HEFTL](#heftl)
+  * [Heterogeneous Federated Transfer Learning](#heterogeneous-federated-transfer-learning)
     * [Feature Space Heterogeneity](#feature-space-heterogeneity)
     * [Feature and Label Space Heterogeneity](#feature-and-label-space-heterogeneity)
 
 ## Federated Transfer Learning challenges
-### DHFTL  
-#### System
+### Dynamic Heterogeneous Federated Transfer Learning  
+#### System heterogeneity
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
  | [Li T, Sahu A K, Zaheer M, Sanjabi M, Talwalkar A, Smith V. Federated optimization in heterogeneous networks. Proceedings of Machine learning and systems, 2020, 2: 429–450](https://arxiv.org/abs/1812.06127) | Parameter Restriction | MLSys | 2020 | [Pytorch](https://github.com/litian96/FedProx) |
@@ -50,14 +50,14 @@ Federated Transfer Learning
  | [Li L, Duan M, Liu D, Zhang Y, Ren A, Chen X, Tan Y, Wang C. Fedsae: A novel self-adaptive federated learning framework in heterogeneous systems. In: 2021 International Joint Conference on Neural Networks (IJCNN). 2021, 1–10](https://ieeexplore.ieee.org/document/9533876) | Model Selection | IEEE | 2021 | N/A |
  | [Cox B, Chen L Y, Decouchant J. Aergia: leveraging heterogeneity in federated learning systems. In: Proceedings of the 23rd ACM/IFIP International Middleware Conference. 2022, 107–120](https://arxiv.org/abs/2210.06154) | Model Selection | ACM/IFIP | 2022 | [Python](https://github.com/bacox/fltk) |
  | [Li C, Zeng X, Zhang M, Cao Z. Pyramidfl: A fine-grained client selection framework for efficient federated learning. In: Proceedings of the 28th Annual International Conference on Mobile Computing And Networking. 2022, 158–171](https://dl.acm.org/doi/abs/10.1145/3495243.3517017) | Model Selection | MobiCom | 2022 | [Python](https://github.com/liecn/PyramidFL) | 
-#### Incremental
+#### Incremental data
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
  | [Dong J, Wang L, Fang Z, Sun G, Xu S, Wang X, Zhu Q. Federated class-incremental learning. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022, 10164–10173](https://arxiv.org/abs/2203.11473) | Consistency Regularization, Model Selection; | CVPR | 2022 | [Pytorch](https://github.com/conditionwang/fcil) |
  | [Yoon J, Jeong W, Lee G, Yang E, Hwang S J. Federated continual learning with weighted inter-client transfer. In: International Conference on Machine Learning. 2021, 12073–12086](https://arxiv.org/abs/2003.03196) | Parameter Decoupling, Model Interpolation | ICML | 2021 | [Tensorflow](https://github.com/wyjeong/FedWeIT) |
  | [Su L, Zhou R, Wang N, Fang G, Li Z. An online learning approach for client selection in federated edge learning under budget constraint. In: Proceedings of the 51st International Conference on Parallel Processing. 2022, 1–11](https://dl.acm.org/doi/10.1145/3545008.3545062) | Model Selection | ICPP | 2022 | N/A |
 
-### MAFTL
+### Model Adaptive Federated Transfer Learning
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
  | [Wu Z, Li Q, He B. Practical vertical federated learning with unsupervised representation learning. IEEE Transactions on Big Data, 2022](https://arxiv.org/abs/2208.10278) | Feature Augmentation | IEEE | 2022 | [Pytorch](https://github.com/jerrylife/fedonce) |
@@ -79,7 +79,7 @@ Federated Transfer Learning
  | [Zhang L, Wu D, Yuan X. Fedzkt: Zero-shot knowledge transfer towards resource-constrained federated learning with heterogeneous on-device models. In: 2022 IEEE 42nd International Conference on Distributed Computing Systems (ICDCS). 2022, 928–938](https://arxiv.org/abs/2109.03775) | Knowledge Distillation | IEEE | 2022 | N/A |
 
   
-### SSFTL
+### Semi-supervised Federated Transfer Learning
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
  | [Lin H, Lou J, Xiong L, Shahabi C. Semifed: Semi-supervised federated learning with consistency and pseudo-labeling. arXiv preprint arXiv:2108.09412, 2021](https://arxiv.org/abs/2108.09412) | Instance Augmentation | SIAM | 2021 | N/A |
@@ -97,7 +97,7 @@ Federated Transfer Learning
  | [Yang D, Xu Z, Li W, Myronenko A, Roth H R, Harmon S, Xu S, Turkbey B, Turkbey E, Wang X, others . Federated semi-supervised learning for covid region segmentation in chest ct using multi-national data from china, italy, japan. Medical image analysis, 2021, 70: 101992](https://arxiv.org/abs/2011.11750) | Model Weighting, Parameter Decoupling | MIA | 2021 | N/A |
  | [Itahara S, Nishio T, Koda Y, Morikura M, Yamamoto K. Distillation-based semi-supervised federated learning for communication-efficient collaborative training with non-iid private data. IEEE Transactions on Mobile Computing, 2021, 22(1): 191–205](https://arxiv.org/abs/2008.06180) | Knowledge Distillation | IEEE | 2021 | N/A |
 
-### USFTL
+### Unsupervised Federated Transfer Learning
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
  | [Liu Y, Guo S, Zhang J, Zhou Q, Wang Y, Zhao X. Feature correlation-guided knowledge transfer for federated self-supervised learning. arXiv preprint arXiv:2211.07364, 2022](https://arxiv.org/abs/2211.07364) | Feature Alignment | arXiv | 2022 | N/A |
@@ -111,7 +111,7 @@ Federated Transfer Learning
  | [Zhuang W, Wen Y, Zhang S. Divergence-aware federated self-supervised learning. arXiv preprint arXiv:2204.04385, 2022](https://arxiv.org/abs/2204.04385) | Model Interpolation | ICLR | 2022 | [Python](https://github.com/EasyFL-AI/EasyFL/tree/master/applications/fedssl) |
  | [Han S, Park S, Wu F, Kim S, Wu C, Xie X, Cha M. Fedx: Unsupervised federated learning with cross knowledge distillation. In: European Conference on Computer Vision. 2022, 691–707](https://arxiv.org/abs/2207.09158) | Knowledge Distillation | ECCV | 2022 | [Pytorch](https://github.com/sungwon-han/fedx) |
 
-### HOFTL
+### Homogeneous Federated Transfer Learning
 #### Prior Shift
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
@@ -271,7 +271,7 @@ Federated Transfer Learning
  | [Itahara S, Nishio T, Koda Y, Morikura M, Yamamoto K. Fedzkt: Zero-shot knowledge transfer towards resource-constrained federated learning with heterogeneous on-device models. IEEE Transactions on Mobile Computing, 2021, 22(1): 191–205](https://arxiv.org/abs/2008.06180) | Knowledge Distillation | IEEE | 2021 | N/A |
 
 
-### HEFTL
+### Heterogeneous Federated Transfer Learning
 ####  Feature Space Heterogeneity
  | Paper | Strategy | Venue | Year | Code |
  | :--- | :---: | :---: | :---: | :---: |
